@@ -9,5 +9,5 @@ test("Test homepage functionality", async ({page})=>{
   await home.gotoHome();
 
   await page.locator(home.DownloadAppLink).click();
-  await page.waitForTimeout(7000);
+  await page.waitForTimeout(8000);
 })
