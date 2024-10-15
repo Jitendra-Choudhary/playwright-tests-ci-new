@@ -3,7 +3,7 @@ const {expect} = require('@playwright/test')
 class homepageObj {
   constructor (page) {
     this.page = page;
-    this.DownloadAppLink = "//*[@id='about']/div[2]/div[3]/a";
+    this.DownloadAppLink = "//*[@id='about']/div[2]/div[3]/a[1]/div/div/span[2]";
     this.SkillspeLogo = "//html/body/main/div[1]/div/div[1]/img";
     this.textVerify = "//html/body/main/div[3]/div[1]/div[1]";
   }
